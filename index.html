@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+    <title>Chelsea</title>
+
+    <script>
+        function openAbout(namaabout)
+        {
+            var i;
+            var x = document.getElementsByClassName("about");
+            for(i = 0; i< x.length; i++)
+            {
+                x[i].style.display = "none";
+            }
+            document.getElementById(namaabout).style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="w3-container w3-indigo">
+        <center>
+            <p>
+                <img src="Banner Chelsea.png" width="300" height="150">
+            </p>
+        </center>
+        <hr>
+    </div>
+    <p>
+    <div class="w3-bar w3-pink w3-card-4">
+        <button class="w3-bar-item w3-button" onclick="openAbout('Welcome')"><img src="home.png" width="40" height="40"></button>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button"><font size="5">ABOUT</font></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openAbout('Club')">Club</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('Sejarah')">Sejarah</button>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button" onclick=""><font size="5">PLAYERS</font></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openAbout('Reece')">Reece James</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('Ben')">Ben Chilwell</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('Thiago')">Thiago Silva</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('Kepa')">Kepa Arrizabalaga</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('Marc')">Marc Cucurella</button>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button" onclick=""><font size="5">ENGLAND</font></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openAbout('STAMFORD')">STAMFORD BRIDGE</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('OLD')">OLD TRAFFORD</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('ETIHAD')">ETIHAD STADIUM</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('EMI')">EMIRATES STADIUM</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('ANF')">ANFIELD</button>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button" onclick=""><font size="5">PREMIERE LEAGUE</font></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openAbout('MANC')">MANCHESTER CITY</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('MANU')">MANCHESTER UNITED</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('ARS')">ARSENAL</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('CHEL')">CHELSEA</button>
+                <button class="w3-bar-item w3-button" onclick="openAbout('LIV')">LIVERPOOL</button>
+            </div>
+        </div>
+    </div>
+    </p>
+
+    <div id="Welcome" class="w3-container about w3-animate-top" style="display:none">
+        <p>
+            <center><img src="champs.webp" width="800" height="450"></center>
+        </p>
+    </div>
+    
+    <div id="Club" class="w3-container about w3-animate-bottom" style="display:none">
+        <center>
+            <img src="Stadion.jpg" width="700" height="450">
+            <h2>Stamford Bridge</h2>
+        </center>
+    </div>
+    <div id="Sejarah" class="w3-container about w3-animate-bottom" style="display:none">
+        <center>
+            <img src="chelsea10.jpg"
+            <br>
+            <h1>UCL 2012 Chelsea VS Bayern Muenchen</h1>
+        </center>
+    </div>
+
+    <div id="Reece" class="w3-container about w3-animate-left" style="display:none">
+        <center>
+            <h1>Chelsea's Player</h1>
+            <hr>
+            <img src="Reece James.jpg" width="650" height="450">
+            <br>
+            Reece James
+            <br>8 Desember 1999
+            <hr>
+        </center>
+    </div>
+    <div id="Ben" class="w3-container about w3-animate-left" style="display:none">
+        <center>
+            <h1>Chelsea's Player</h1>
+            <hr>
+            <img src="Ben.jpg" width="750" height="450">
+            <br>
+            Ben Chilwell
+            <br>21 Desember 1996
+            <hr>
+        </center>
+    </div>
+    <div id="Thiago" class="w3-container about w3-animate-left" style="display:none">
+        <center>
+            <h1>Chelsea's Player</h1>
+            <hr>
+            <img src="thiago.jpg" width="750" height="450">
+            <br>
+            Thiago Silva
+            <br>22 September 1984
+            <hr>
+        </center>
+    </div>
+    <div id="Kepa" class="w3-container about w3-animate-left" style="display:none">
+        <center>
+            <h1>Chelsea's Player</h1>
+            <hr>
+            <img src="kepaarizz.jpg" width="725" height="450">
+            <br>
+            Kepa Arrizabalaga
+            <br>3 Oktober 1994
+            <hr>
+        </center>
+    </div>
+    <div id="Marc" class="w3-container about w3-animate-left" style="display:none">
+        <center>
+            <h1>Chelsea's Player</h1>
+            <hr>
+            <img src="cucu.jpg" width="425" height="525">
+            <br>
+            Marc Cucurella
+            <br>22 Juli 1998
+            <hr>
+        </center>
+    </div>
+
+    <div id="STAMFORD" class="w3-container about w3-animate-right" style="display:none">
+        <center>
+            <h2>STAMFORD BRIDGE</h2>
+            <img src="Stadion.jpg" width="600" height="350">
+        </center>
+    </div>
+    <div id="OLD" class="w3-container about w3-animate-right" style="display:none">
+        <center>
+            <h2>OLD TRAFFORD</h2>
+            <img src="old.jpg" width="600" height="350">
+        </center>
+    </div>
+    <div id="ETIHAD" class="w3-container about w3-animate-right" style="display:none">
+        <center>
+            <h2>ETIHAD STADIUM</h2>
+            <img src="eti.jpg" width="600" height="350">
+        </center>
+    </div>
+    <div id="EMI" class="w3-container about w3-animate-right" style="display:none">
+        <center>
+            <h2>EMIRATES STADIUM</h2>
+            <img src="emi.jpg" width="600" height="350">
+        </center>
+    </div>
+    <div id="ANF" class="w3-container about w3-animate-right" style="display:none">
+        <center>
+            <h2>ANFIELD</h2>
+            <img src="anf.jpeg" width="600" height="350">
+        </center>
+    </div>
+
+    <div id="MANC" class="w3-container about w3-animate-top" style="display:none">
+        <center>
+            <h2>MANCHESTER CITY</h2>
+            <img src="manc.png" width="600" height="600">
+        </center>
+    </div>
+    <div id="MANU" class="w3-container about w3-animate-top" style="display:none">
+        <center>
+            <h2>MANCHESTER UNITED</h2>
+            <img src="manu.png" width="600" height="600">
+        </center>
+    </div>
+    <div id="ARS" class="w3-container about w3-animate-top" style="display:none">
+        <center>
+            <h2>ARSENAL</h2>
+            <img src="ars.png" width="600" height="700">
+        </center>
+    </div>
+    <div id="CHEL" class="w3-container about w3-animate-top" style="display:none">
+        <center>
+            <h2>CHELSEA</h2>
+            <img src="chel.png" width="600" height="600">
+        </center>
+    </div>
+    <div id="LIV" class="w3-container about w3-animate-top" style="display:none">
+        <center>
+            <h2>LIVERPOOL</h2>
+            <img src="liv.png" width="600" height="700">
+        </center>
+    </div>
+</body>
+</html>
